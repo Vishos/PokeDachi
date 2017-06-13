@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="Status">
+        <h6 class="@ViewBag.fstatus">Fullness: @ViewBag.fullness</h6>
+        <h6 class="@ViewBag.hstatus">Happiness: @ViewBag.happiness</h6>
+        <h6 class="@ViewBag.mstatus">Meals: @ViewBag.meals</h6>
+        <h6 class="@ViewBag.estatus">Energy: @ViewBag.energy</h6>
+        </div>
+
+        @{
+            if(ViewBag.happiness < 1 || ViewBag.fullness < 1)
+            {
+                <h1 class = "loss">OH NO!!!! Pikachu...</h1>
+                <img src="~/images/pokemon-hop-drop.gif" alt="">
+                <a href="action/5">Reset?</a>
+            }
+            else if(ViewBag.happiness > 99 && ViewBag.fullness > 99 && ViewBag.energy > 99)
+            {
+                <h1 class = "win">Congratulations!!!!</h1>
+                <h1 class = "win">Pikachu has over 100 Happiness, Fullness and Energy.</h1>
+                <img src="~/images/giphy.gif" alt="">
+                <a href="action/5">Reset?</a>
+            }
+            else
+            {
+                if(ViewBag.result != null && ViewBag.result.Length > 1){
+                    <p class="@ViewBag.status">@ViewBag.result</p>
+                }
+                <img src="~/images/tenor.gif" alt="">
+                <div class="buttons">
+                    <a href="action/1">Feed?</a>
+                    <a href="action/2">Play?</a>
+                    <a href="action/3">Work?</a>
+                    <a href="action/4">Sleep?</a>
+                </div>
+                <a href="action/5">Reset?</a>
+                
+            }
+        }
+    </body>
+</html>

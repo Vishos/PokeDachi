@@ -1,0 +1,8 @@
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/bin/Debug/netcoreapp1.1/dachi.deps.json
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/bin/Debug/netcoreapp1.1/dachi.runtimeconfig.json
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/bin/Debug/netcoreapp1.1/dachi.runtimeconfig.dev.json
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/bin/Debug/netcoreapp1.1/dachi.dll
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/bin/Debug/netcoreapp1.1/dachi.pdb
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/obj/Debug/netcoreapp1.1/dachi.AssemblyInfo.cs
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/obj/Debug/netcoreapp1.1/dachi.dll
+/Users/crystallayman/Desktop/DojoAssignments/netCore/Day1/dachi/obj/Debug/netcoreapp1.1/dachi.pdb

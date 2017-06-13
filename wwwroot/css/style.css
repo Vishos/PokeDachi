@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+a{
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14pt;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+#Status *{
+    margin-right: 20px;
+    font-size: 14pt;
+    display: inline-block;
+}
+img{
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    height: 400px;
+    width: auto;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.win{
+    background-color: lightblue;
+    color: darkblue;
+}
+.loss{
+    background-color: lightcoral;
+    color: darkred;
+}
+.buttons{
+    display: block;
+    margin-bottom: 30px;
+}
